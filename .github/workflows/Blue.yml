@@ -26,5 +26,5 @@ jobs:
 
     - name: Deploy BLUE to EKS
       run: |
-        kubectl apply -f k8s/deployment.yaml
-        kubectl apply -f k8s/service-stable.yaml
+        kubectl apply -f gha-streamfilx-v1-main/gha-streamfilx-v1-main/k8s/deployment.yaml
+        kubectl apply -f gha-streamfilx-v1-main/gha-streamfilx-v1-main/k8s/service-stable.yaml
